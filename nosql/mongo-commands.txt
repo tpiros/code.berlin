@@ -158,7 +158,13 @@ db.orders.aggregate([
 
 db.books.aggregate([
   { $match: { author: 'Carmelia Haggis' } },
-  { $group: { _id: '$author', pages: { $sum: "$pages" } } }
+  { $group: { _id: '$author', pages: { $sum: "$pages" } } },
+  { $project: {
+      _id: '$_id',
+      author: '$author',
+      pages: '$pages'
+    }
+  }
 ])
 
 db.books.aggregate([
@@ -193,14 +199,14 @@ db.fruit.aggregate([
   { $group: { _id: "$qty", same_quantity: { $sum: 1 }}}
 ])
 
-db.fruit.aggregate([
-  { $group: { _id: "$qty", same_quantity: { ???}}}
-]).pretty();
-
 db.stores.createIndex( { "description": "text" })
 
 db.stores.find( { $text: { $search: "coffee" } } )
+db.stores.find( { $text: { $search: "coffee", $caseSensitive: true } } )
+
+db.stores.createIndex( { "name": "text", "description": "text" })
 db.stores.find( { $text: { $search: "java shop -coffee" } } )
+
 db.stores.find(
    { $text: { $search: "coffee" } },
    { score: { $meta: "textScore" } }
