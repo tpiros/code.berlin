@@ -55,15 +55,27 @@ db.employees.update({ _id: id }, { $set: { name: 'Steve' } });
 
 // update, otherwise insert if doesn't exist
 db.employees.update(
-   { name: 'John' },
+   { name: 'Kate' },
    {
-     name: 'John',
+     name: 'Kate',
      salary: 24000
    },
    { upsert: true }
 );
 
 // update by matching query
+db.employees.update(
+   { 'department.name': 'Evangelism' },
+   { $set: { salary: 50000 } },
+   { multi: true }
+);
+
+db.employees.update(
+  { salary: { $eq: 50000 }},
+  { $set: { salary: 60000 }},
+  { multi: true}
+);
+
 db.employees.update(
    { salary: { $eq: 24000 } },
    { $set: { name: 'Jack' } },
@@ -73,3 +85,91 @@ db.employees.update(
 
 db.employees.aggregate([{ $group: { _id: "$department.name", salary: { $avg: "$salary" } }}]);
 db.employees.aggregate([{ $group: { _id: "$department.name", salary: { $min: "$salary" } }}]);
+
+db.orders.aggregate([
+  {
+    $match: {
+      date: {
+        $gte: '2019-08-01',
+        $lt: '2019-08-31'
+      }
+    }
+  }, {
+    $group: {
+      _id: null,
+      total: {
+        $sum: "$amount"
+      }
+    }
+  }
+])
+
+db.orders.aggregate([
+  {
+    $match: {
+      date: {
+        $gte: '2019-08-01',
+        $lt: '2019-08-31'
+      }
+    }
+  }, {
+    $group: {
+      _id: null,
+      total: {
+        $sum: "$amount"
+      },
+      avg_amount: {
+        $avg: "$amount"
+      },
+      min_amount: {
+        $min: "$amount"
+      },
+      max_amount: {
+        $max: "$amount"
+      }
+    }
+  }
+])
+
+db.books.aggregate([
+  { $match: { author: 'Carmelia Haggis' } },
+  { $group: { _id: '$author', pages: { $sum: "$pages" } } }
+])
+
+db.books.aggregate([
+  {
+    $group: {
+      _id: "$author",
+      books: {
+        $sum: 1
+      }
+    }
+  }, 
+  {
+    $sort: { books: -1 }
+  }
+])
+
+
+db.employees.find({ $text: { $search: "London" }} )
+
+db.employees.createIndex( { "department.location": "text" })
+
+db.fruit.insertMany([
+   { name: "apple", qty: 100, price: 80 },
+   { name: "pear", qty: 100, price: 20 },
+   { name: "grape", qty: 250, price: 30 }
+])
+
+//aggregate matching
+db.fruit.aggregate([ { $match: { price: 80 } }]).pretty();
+
+db.fruit.aggregate([ { $group: { _id: "$qty", same_quantity: { $sum: 1 }}}]).pretty();
+
+db.stores.find( { $text: { $search: "coffee" } } )
+db.stores.find( { $text: { $search: "java shop -coffee" } } )
+
+
+db.abc.find( {
+  loc: { $geoWithin: { $centerSphere: [ [ -88, 30 ], 10/3963.2 ] } }
+} )

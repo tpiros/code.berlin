@@ -1,0 +1,50 @@
+{"_id":{"$oid":"5db8a19b832136de74587203"},"author":"Lotti Gavagan","pages":{"$numberInt":"602"},"title":"Funny Ha Ha","sales":{"$numberInt":"6388"}}
+{"_id":{"$oid":"5db8a19b832136de74587204"},"author":"Lotti Gavagan","pages":{"$numberInt":"617"},"title":"Beast, The (La bête)","sales":{"$numberInt":"6507"}}
+{"_id":{"$oid":"5db8a19b832136de74587205"},"author":"Lotti Gavagan","pages":{"$numberInt":"521"},"title":"No Such Thing","sales":{"$numberInt":"8085"}}
+{"_id":{"$oid":"5db8a19b832136de74587206"},"author":"Lotti Gavagan","pages":{"$numberInt":"241"},"title":"Trash","sales":{"$numberInt":"12472"}}
+{"_id":{"$oid":"5db8a19b832136de74587207"},"author":"Lotti Gavagan","pages":{"$numberInt":"703"},"title":"Bread and Roses","sales":{"$numberInt":"2436"}}
+{"_id":{"$oid":"5db8a19b832136de74587208"},"author":"Evelina Halfhyde","pages":{"$numberInt":"733"},"title":"American Werewolf in London, An","sales":{"$numberInt":"9781"}}
+{"_id":{"$oid":"5db8a19b832136de74587209"},"author":"Evelina Halfhyde","pages":{"$numberInt":"699"},"title":"Nancy Drew: Detective","sales":{"$numberInt":"8641"}}
+{"_id":{"$oid":"5db8a19b832136de7458720a"},"author":"Stacy Hanne","pages":{"$numberInt":"109"},"title":"Tsotsi","sales":{"$numberInt":"5274"}}
+{"_id":{"$oid":"5db8a19b832136de7458720b"},"author":"Stacy Hanne","pages":{"$numberInt":"591"},"title":"Little Nikita","sales":{"$numberInt":"12889"}}
+{"_id":{"$oid":"5db8a19b832136de7458720c"},"author":"Stacy Hanne","pages":{"$numberInt":"840"},"title":"Target","sales":{"$numberInt":"7247"}}
+{"_id":{"$oid":"5db8a19b832136de7458720d"},"author":"Humphrey Warby","pages":{"$numberInt":"451"},"title":"Woman in The Septic Tank, The (Ang Babae sa septic tank)","sales":{"$numberInt":"13730"}}
+{"_id":{"$oid":"5db8a19b832136de7458720e"},"author":"Humphrey Warby","pages":{"$numberInt":"252"},"title":"Revenge of the Nerds II: Nerds in Paradise","sales":{"$numberInt":"12438"}}
+{"_id":{"$oid":"5db8a19b832136de7458720f"},"author":"Humphrey Warby","pages":{"$numberInt":"256"},"title":"Edge of Madness","sales":{"$numberInt":"11367"}}
+{"_id":{"$oid":"5db8a19b832136de74587210"},"author":"Humphrey Warby","pages":{"$numberInt":"763"},"title":"EDtv","sales":{"$numberInt":"3824"}}
+{"_id":{"$oid":"5db8a19b832136de74587211"},"author":"Humphrey Warby","pages":{"$numberInt":"777"},"title":"Comes a Horseman","sales":{"$numberInt":"12621"}}
+{"_id":{"$oid":"5db8a19b832136de74587212"},"author":"Humphrey Warby","pages":{"$numberInt":"316"},"title":"Lies My Father Told Me","sales":{"$numberInt":"5312"}}
+{"_id":{"$oid":"5db8a19b832136de74587213"},"author":"Humphrey Warby","pages":{"$numberInt":"732"},"title":"Return of Frank James, The","sales":{"$numberInt":"11483"}}
+{"_id":{"$oid":"5db8a19b832136de74587214"},"author":"Humphrey Warby","pages":{"$numberInt":"573"},"title":"Sea Hawk, The","sales":{"$numberInt":"1268"}}
+{"_id":{"$oid":"5db8a19b832136de74587215"},"author":"Humphrey Warby","pages":{"$numberInt":"278"},"title":"Mad Miss Manton, The","sales":{"$numberInt":"12646"}}
+{"_id":{"$oid":"5db8a19b832136de74587216"},"author":"Humphrey Warby","pages":{"$numberInt":"719"},"title":"Shit Year","sales":{"$numberInt":"7226"}}
+{"_id":{"$oid":"5db8a19b832136de74587217"},"author":"Humphrey Warby","pages":{"$numberInt":"201"},"title":"'Round Midnight","sales":{"$numberInt":"13352"}}
+{"_id":{"$oid":"5db8a19b832136de74587218"},"author":"Humphrey Warby","pages":{"$numberInt":"342"},"title":"Lured","sales":{"$numberInt":"3119"}}
+{"_id":{"$oid":"5db8a19b832136de74587219"},"author":"Humphrey Warby","pages":{"$numberInt":"712"},"title":"Munchies","sales":{"$numberInt":"7627"}}
+{"_id":{"$oid":"5db8a19b832136de7458721a"},"author":"Humphrey Warby","pages":{"$numberInt":"409"},"title":"Out of Balance: ExxonMobil's Impact on Climate Change","sales":{"$numberInt":"9097"}}
+{"_id":{"$oid":"5db8a19b832136de7458721b"},"author":"Humphrey Warby","pages":{"$numberInt":"168"},"title":"Guerrilla: The Taking of Patty Hearst","sales":{"$numberInt":"13452"}}
+{"_id":{"$oid":"5db8a19b832136de7458721c"},"author":"Humphrey Warby","pages":{"$numberInt":"735"},"title":"Les hautes solitudes","sales":{"$numberInt":"10418"}}
+{"_id":{"$oid":"5db8a19b832136de7458721d"},"author":"Carmelia Haggis","pages":{"$numberInt":"729"},"title":"It Happened to Jane","sales":{"$numberInt":"13694"}}
+{"_id":{"$oid":"5db8a19b832136de7458721e"},"author":"Carmelia Haggis","pages":{"$numberInt":"750"},"title":"Conjuring, The","sales":{"$numberInt":"11605"}}
+{"_id":{"$oid":"5db8a19b832136de7458721f"},"author":"Carmelia Haggis","pages":{"$numberInt":"652"},"title":"Winnebago Man","sales":{"$numberInt":"14799"}}
+{"_id":{"$oid":"5db8a19b832136de74587220"},"author":"Carmelia Haggis","pages":{"$numberInt":"814"},"title":"Dinosaurs: A Fun Filled Trip Back in Time","sales":{"$numberInt":"5331"}}
+{"_id":{"$oid":"5db8a19b832136de74587221"},"author":"Carmelia Haggis","pages":{"$numberInt":"586"},"title":"7 Below (Seven Below)","sales":{"$numberInt":"1558"}}
+{"_id":{"$oid":"5db8a19b832136de74587222"},"author":"Carmelia Haggis","pages":{"$numberInt":"742"},"title":"Zakochani","sales":{"$numberInt":"14198"}}
+{"_id":{"$oid":"5db8a19b832136de74587223"},"author":"Carmelia Haggis","pages":{"$numberInt":"693"},"title":"Friday the 13th Part 3: 3D","sales":{"$numberInt":"4262"}}
+{"_id":{"$oid":"5db8a19b832136de74587224"},"author":"Carmelia Haggis","pages":{"$numberInt":"744"},"title":"Dr. T and the Women","sales":{"$numberInt":"15000"}}
+{"_id":{"$oid":"5db8a19b832136de74587225"},"author":"Carmelia Haggis","pages":{"$numberInt":"130"},"title":"Shock to the System, A","sales":{"$numberInt":"10236"}}
+{"_id":{"$oid":"5db8a19b832136de74587226"},"author":"Carmelia Haggis","pages":{"$numberInt":"346"},"title":"Cass","sales":{"$numberInt":"2107"}}
+{"_id":{"$oid":"5db8a19b832136de74587227"},"author":"Carmelia Haggis","pages":{"$numberInt":"437"},"title":"Jug Face","sales":{"$numberInt":"13736"}}
+{"_id":{"$oid":"5db8a19b832136de74587228"},"author":"Carmelia Haggis","pages":{"$numberInt":"759"},"title":"New York Ripper, The (Squartatore di New York, Lo)","sales":{"$numberInt":"7642"}}
+{"_id":{"$oid":"5db8a19b832136de74587229"},"author":"Carmelia Haggis","pages":{"$numberInt":"540"},"title":"120","sales":{"$numberInt":"9126"}}
+{"_id":{"$oid":"5db8a19b832136de7458722a"},"author":"Carmelia Haggis","pages":{"$numberInt":"625"},"title":"Cloverfield","sales":{"$numberInt":"6593"}}
+{"_id":{"$oid":"5db8a19b832136de7458722b"},"author":"Carmelia Haggis","pages":{"$numberInt":"349"},"title":"Under the Skin","sales":{"$numberInt":"4086"}}
+{"_id":{"$oid":"5db8a19b832136de7458722c"},"author":"Carmelia Haggis","pages":{"$numberInt":"821"},"title":"Onegin","sales":{"$numberInt":"10049"}}
+{"_id":{"$oid":"5db8a19b832136de7458722d"},"author":"Carmelia Haggis","pages":{"$numberInt":"440"},"title":"Ball of Fire","sales":{"$numberInt":"4294"}}
+{"_id":{"$oid":"5db8a19b832136de7458722e"},"author":"Carmelia Haggis","pages":{"$numberInt":"649"},"title":"Carmelia Haggis","sales":{"$numberInt":"2910"}}
+{"_id":{"$oid":"5db8a19b832136de7458722f"},"author":"Carmelia Haggis","pages":{"$numberInt":"500"},"title":"Blue Sky","sales":{"$numberInt":"14012"}}
+{"_id":{"$oid":"5db8a19b832136de74587230"},"author":"Carmelia Haggis","pages":{"$numberInt":"471"},"title":"Trading Places","sales":{"$numberInt":"3402"}}
+{"_id":{"$oid":"5db8a19b832136de74587231"},"author":"Carmelia Haggis","pages":{"$numberInt":"115"},"title":"5 Against the House","sales":{"$numberInt":"3574"}}
+{"_id":{"$oid":"5db8a19b832136de74587232"},"author":"Carmelia Haggis","pages":{"$numberInt":"862"},"title":"Eight Iron Men","sales":{"$numberInt":"8763"}}
+{"_id":{"$oid":"5db8a19b832136de74587233"},"author":"Carmelia Haggis","pages":{"$numberInt":"203"},"title":"Ferryman, The","sales":{"$numberInt":"12298"}}
+{"_id":{"$oid":"5db8a19b832136de74587234"},"author":"Carmelia Haggis","pages":{"$numberInt":"451"},"title":"Bound","sales":{"$numberInt":"2680"}}
