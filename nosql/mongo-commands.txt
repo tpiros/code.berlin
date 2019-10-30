@@ -84,7 +84,32 @@ db.employees.update(
 
 
 db.employees.aggregate([{ $group: { _id: "$department.name", salary: { $avg: "$salary" } }}]);
+
+db.employees.aggregate([
+  { $group: { _id: "$department.name", avgSalary: { $avg: "$salary" } } },
+  { $project: {
+    _id: '$_id',
+    average: '$avgSalary',
+    roundedAvg: { $ceil: '$avgSalary' }
+  }
+}]);
+
 db.employees.aggregate([{ $group: { _id: "$department.name", salary: { $min: "$salary" } }}]);
+
+db.employees.aggregate([
+  { $group: { _id: "$department.name", salary: { $round: { $avg: "$salary" } } },
+}]);
+
+db.orders.aggregate([
+{
+    $group: {
+      _id: null,
+      total: {
+        $sum: "$amount"
+      }
+    }
+  }
+])
 
 db.orders.aggregate([
   {
@@ -164,12 +189,25 @@ db.fruit.insertMany([
 //aggregate matching
 db.fruit.aggregate([ { $match: { price: 80 } }]).pretty();
 
-db.fruit.aggregate([ { $group: { _id: "$qty", same_quantity: { $sum: 1 }}}]).pretty();
+db.fruit.aggregate([
+  { $group: { _id: "$qty", same_quantity: { $sum: 1 }}}
+])
+
+db.fruit.aggregate([
+  { $group: { _id: "$qty", same_quantity: { ???}}}
+]).pretty();
+
+db.stores.createIndex( { "description": "text" })
 
 db.stores.find( { $text: { $search: "coffee" } } )
 db.stores.find( { $text: { $search: "java shop -coffee" } } )
+db.stores.find(
+   { $text: { $search: "coffee" } },
+   { score: { $meta: "textScore" } }
+);
 
+https://docs.mongodb.com/manual/reference/operator/query/text/
 
-db.abc.find( {
+db.abc.find({
   loc: { $geoWithin: { $centerSphere: [ [ -88, 30 ], 10/3963.2 ] } }
-} )
+})
